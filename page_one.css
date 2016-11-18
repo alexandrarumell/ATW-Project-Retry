@@ -1,0 +1,234 @@
+ul {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	background: #1bc2a2;
+}
+
+ul li {
+	display: block;
+	position: relative;
+	float: left;
+	background: #1bc2a2;
+}
+li ul {
+display: none;
+}
+ul li a {
+display: block;
+padding: 1em;
+text-decoration: none;
+white-space: nowrap;	
+}
+
+ul li a:hover {
+	background: #2c3e50;
+}
+
+li:hover > ul {
+display: block;
+position: absolute;	
+}
+li:hover li {
+	float: none;
+}
+li:hover a {
+	background: #1bc2a2;
+}
+li:hover li a:hover {background: #2c3e50;}
+
+.main-nav li ul li {border-top: 0;}
+
+ul ul ul {
+left: 100%;
+top: 0;	
+}
+
+ul:before,
+ul:after {
+	content: " ";
+	display: table;
+}
+
+ul: after {
+	clear: both;
+}
+/*.main-nav {
+	cursor: pointer;
+	position: relative ;
+}
+
+.main-nav:hover .dropdown {
+	display: block;
+}
+.dropdown:hover .about_dropdown
+{
+	display: block;
+} 
+
+
+.about_dropdown 
+{
+display: none;
+position: absolute;
+border: none;
+font-size: 20px;
+padding: 20px;
+color: black;
+background-color: red;
+font-family: courier;
+font-style: bold;
+}
+
+.dropdown:hover .get_involved_dropdown 
+{
+	display: block;
+}
+.get_involved_dropdown
+{
+display: none;
+position: absolute;
+border: none;
+font-size: 20px;
+padding: 20px;
+color: black;
+background-color: red;
+font-family: courier;
+font-style: bold;
+}
+.dropdown:hover .programs 
+{
+	display: block;
+}
+.programs
+{
+display: none;
+position: absolute;
+border: none;
+font-size: 20px;
+padding: 20px;
+color: black;
+background-color: red;
+font-family: courier;
+font-style: bold;
+}
+
+.dropdown:hover .acting_classes 
+{
+	display: block;
+}
+.acting_classes
+{
+display: none;
+position: absolute;
+border: none;
+font-size: 20px;
+padding: 20px;
+color: black;
+background-color: red;
+font-family: courier;
+font-style: bold;
+}
+
+.dropdown:hover .news
+{
+	display: block;
+}
+.news
+{
+display: none;
+position: absolute;
+border: none;
+font-size: 20px;
+padding: 20px;
+color: black;
+background-color: red;
+font-family: courier;
+font-style: bold;
+}
+.dropdown:hover .rental
+{
+	display: block;
+}
+.rental
+{
+display: none;
+position: absolute;
+border: none;
+font-size: 20px;
+padding: 20px;
+color: black;
+background-color: red;
+font-family: courier;
+font-style: bold;
+}
+
+.dropdown:hover .contact
+{
+	display: block;
+}
+.contact
+{
+display: none;
+position: absolute;
+border: none;
+font-size: 20px;
+padding: 20px;
+color: black;
+background-color: red;
+font-family: courier;
+font-style: bold;
+}
+
+.dropdown {
+display: none;
+position: absolute;
+border: none;
+font-size: 20px;
+padding: 20px;
+color: black;
+background-color: red;
+font-family: courier;
+font-style: bold;
+}
+
+.sub-menu{
+	position: absolute;
+	display: none;
+	background-color: blue;
+	color: yellow;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.sub-menu a {
+	color: white;
+	text-decoration: none;
+	padding: 12px 16px;
+	display: block;
+
+}
+*/
+/*.sub-menu a:hover {background-color: orange);
+}*/
+
+
+/*ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+ul li {
+	display: inline-block;
+	background-color: black;
+	color: red;
+	font-style: bold;
+	font-family: courier;
+	font-size: 15px;
+	position: relative;
+}
+
+ul li .sub-menu {
+}
+:hover*/;
