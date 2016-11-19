@@ -16,6 +16,13 @@ h2 {
 	text-align: center;
 }
 
+h3{
+	font-size: 25px;
+	text-align: center;
+	border-bottom: black 3px solid;
+	padding-bottom: 9px;
+/*	border-left: black 3px solid;*/
+}
 #logo {
 	position: block;
 	border: black 10px solid;
