@@ -66,7 +66,8 @@ li:hover a {
 	color: black;
 }
 li:hover li a:hover {background: #2c3e50;
-width: 75px;}
+width: 467px;
+/*padding: 3px;*/}
 
 .main-nav li ul li {border-top: 0;
 width: 500px;}
