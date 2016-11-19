@@ -1,3 +1,21 @@
+h1 {
+	border-top: black 2px solid;
+	border-left: black 1px solid;
+	border-right: black 1px solid;
+	font-size: 70px;
+	/*font-family: courier;*/
+	font-style: bold;
+	text-align: center;
+}
+
+h2 {
+	border-bottom: black 2px solid;
+	border-left: black 1px solid;
+	border-right: black 1px solid;
+	font-size: 40px;
+	text-align: center;
+}
+
 #logo {
 	position: block;
 	border: black 10px solid;
@@ -32,6 +50,7 @@ ul:hover ul li {
 	padding: 3px;
 /*	width: 100px;*/
 	text-align: left;
+	margin-bottom: 15px;
 }
 /*ul li {
 	
