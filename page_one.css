@@ -6,15 +6,17 @@
 }
 
 ul {
+	width: 100%;
 	list-style: none;
 	padding: 0;
-	margin: 10;
+	margin: 0;
 	color: black;
+	/*overflow: hidden;*/
 }
 
 ul li {
 	height: 50px;
-	width: auto;
+	/*width: 100%;*/
 	display: none;
 	color: black;
 }
@@ -26,7 +28,10 @@ ul:hover ul li {
 	border: black 5px solid;
 	color: black;
 	height: 50px;
-	width: auto;
+	width: 140px;
+	padding: 3px;
+/*	width: 100px;*/
+	text-align: left;
 }
 /*ul li {
 	
@@ -43,14 +48,15 @@ color: black;
 }
 
 ul li a:hover {
-	background: red;
+	background: black;
 	/*border: black 5px solid;*/
-	color: black;
+	color: red;
 }
 
 li:hover > ul {
 display: block;
-position: absolute;	
+position: absolute;
+/*width: 100%;*/
 }
 li:hover li {
 	float: none;
@@ -59,16 +65,23 @@ li:hover a {
 	background: red;
 	color: black;
 }
-li:hover li a:hover {background: #2c3e50;}
+li:hover li a:hover {background: #2c3e50;
+width: 75px;}
 
-.main-nav li ul li {border-top: 0;}
+.main-nav li ul li {border-top: 0;
+width: 500px;}
 
 ul ul ul {
 /*left: 100%;*/
 /*display: block;*/
-padding-top: 60px;
+padding-top: 20px;
+/*border-top: black 20px dotted;*/
+border-top-width: 10px; 
 position: absolute;
-top: 0;	
+/*width: 100px;*/
+/*text-align: center;*/
+/*top: 0;	
+width: 0px;*/
 }
 
 ul:before,
