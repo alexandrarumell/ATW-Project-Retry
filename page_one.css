@@ -1,7 +1,13 @@
+body{
+	background-color: blanchedalmond;
+}
+
 h1 {
+	background-color: darkred;
 	border-top: black 2px solid;
-	border-left: black 1px solid;
-	border-right: black 1px solid;
+	/*border-left: black 1px solid;*/
+	border-right: black 10px solid;
+	border-bottom: black 4px solid;
 	font-size: 70px;
 	/*font-family: courier;*/
 	font-style: bold;
@@ -10,9 +16,9 @@ h1 {
 
 h2 {
 	margin-bottom: 0;
-	border-bottom: black 2px solid;
-	border-left: black 1px solid;
-	border-right: black 1px solid;
+	border-bottom: black 3px solid;
+	border-left: black 10px solid;
+/*	border-right: black 5px solid;*/
 	font-size: 40px;
 	text-align: center;
 }
@@ -23,13 +29,23 @@ h3{
 	text-align: center;
 	border-bottom: black 3px solid;
 	padding-bottom: 9px;
+	/*padding-top: 0px*/
 /*	border-left: black 3px solid;*/
 }
 #logo {
-	position: block;
-	border: black 10px solid;
-	padding: 10px;
-	margin: 5px;
+/*	margin-top: 2px;*/
+/*	margin-left: 0 auto;
+	margin-right: 0 auto;
+	position: block;*/
+	/*border: black 2px solid;*/
+	height: 75px;
+	width: 100px;
+	float: left;
+	clear: right;
+	margin-right: 10px;
+/*	margin-bottom: 3px;*/
+/*	padding: 10px;*/
+	/*margin: 5px;*/
 }
 
 ul {
@@ -51,7 +67,7 @@ ul:hover ul li {
 	display: inline-block;
 	position: relative;
 	float: left;
-	background: red;
+	background-color: darkred;
 	border: black 5px solid;
 	color: black;
 	height: 50px;
@@ -90,7 +106,7 @@ li:hover li {
 	float: none;
 }
 li:hover a {
-	background: red;
+	background: darkred;
 	color: black;
 }
 li:hover li a:hover {background: #2c3e50;
@@ -141,6 +157,93 @@ padding-bottom: 20px;
 	border-bottom: black 4px dashed;
 	border-left: black 3px dashed;
 	border-right: black 3px dashed;
+}
+
+#conservatory{
+	height: 400px;
+	width: 250px;
+	border: black 3px solid;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#conservatory_heading{
+	font-size: 20px;
+	border-right: none;
+	border-left: none;
+	border-top: black 3px solid;
+	border-bottom: black 3px solid;
+}
+
+#conservatory_paragraph{
+	position: inline-block;
+/*	margin-top: 10px;
+	padding: 5px;*/
+}
+
+#community_programs{
+	height: 400px;
+	width: 250px;
+	border: black 3px solid;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#community_programs_heading{
+	font-size: 20px;
+	border-right: none;
+	border-left: none;
+	border-top: black 3px solid;
+	border-bottom: black 3px solid;
+}
+
+#events_div{
+	height: 400px;
+	width: 250px;
+	border: black 3px solid;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#events_heading{
+	font-size: 20px;
+	border-right: none;
+	border-left: none;
+	border-top: black 3px solid;
+	border-bottom: black 3px solid;
+}
+
+#rental_business{
+	height: 400px;
+	width: 250px;
+	border: black 3px solid;
+	float: left;
+	margin-top: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#rental_heading{
+	font-size: 20px;
+	border-right: none;
+	border-left: none;
+	border-top: black 3px solid;
+	border-bottom: black 3px solid;
+}
+
+.exterior_links {
+	height: 500px;
+	width: 2000px;
+	margin-top: 20px;
+	margin-right: 0 auto;
+	margin-left: 0 auto;
+/*	position: absolute;*/
 }
 /*.main-nav {
 	cursor: pointer;
